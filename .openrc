@@ -1,0 +1,6 @@
+export OS_AUTH_URL=https://keystone.cern.ch/krb/v3
+export OS_AUTH_TYPE=v3kerberos
+export OS_USERNAME=`id -un`
+export OS_TENANT_NAME="Personal $OS_USERNAME"
+export OS_IDENTITY_API_VERSION=3
+export OS_PROJECT_DOMAIN_ID=default
